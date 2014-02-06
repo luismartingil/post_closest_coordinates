@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 '''
-closes_coordinates.py
+closest_coordinates.py
 
 closest coordinates puzzle.
 
@@ -93,3 +93,23 @@ if __name__ == '__main__':
                 result_dict[size][algorithm_name] = t
         # end for
         pprint.pprint(result_dict)
+
+
+# test-algorithm01-000000 (__main__.Test_Apply) ... ok
+# test-algorithm01-000001 (__main__.Test_Apply) ... ok
+# test-algorithm01-000002 (__main__.Test_Apply) ... ok
+# test-algorithm01-000003 (__main__.Test_Apply) ... ok
+# test-algorithm01-000004 (__main__.Test_Apply) ... ok
+# test-algorithm01-000005 (__main__.Test_Apply) ... ok
+# test-algorithm01-000006 (__main__.Test_Apply) ... ok
+# test-algorithm01-000007 (__main__.Test_Apply) ... ok
+# test-algorithm01-000008 (__main__.Test_Apply) ... ok
+# test-algorithm02-000000 (__main__.Test_Apply) ... FAIL
+# test-algorithm02-000001 (__main__.Test_Apply) ... FAIL
+# test-algorithm02-000002 (__main__.Test_Apply) ... FAIL
+# test-algorithm02-000003 (__main__.Test_Apply) ... FAIL
+# test-algorithm02-000004 (__main__.Test_Apply) ... FAIL
+# test-algorithm02-000005 (__main__.Test_Apply) ... FAIL
+# test-algorithm02-000006 (__main__.Test_Apply) ... FAIL
+# test-algorithm02-000007 (__main__.Test_Apply) ... FAIL
+# test-algorithm02-000008 (__main__.Test_Apply) ... FAIL
